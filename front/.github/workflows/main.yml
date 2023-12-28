@@ -1,0 +1,22 @@
+name: Deploy to GitHub pages
+on:
+  push:
+    # this is the branch where you develop your site
+    # as discussed in the publishing sources section
+    # this can change if you are using an user/organization repo
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Generate static solidjs files
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'
+    - run: yarn install
+    - run: yarn build
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+          folder: dist # The folder the action should deploy

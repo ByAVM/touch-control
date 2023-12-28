@@ -1,0 +1,12 @@
+.root {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    min-width: 12px;
+    pointer-events: none;
+}
+
+.message {
+    padding: 0.5rem;
+}

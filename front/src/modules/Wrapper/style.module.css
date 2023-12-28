@@ -1,0 +1,20 @@
+.wrapper {
+    padding-top: 3px;
+    padding-bottom: 2rem;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.navbarContainer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.statusContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}

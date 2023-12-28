@@ -1,0 +1,29 @@
+.root {
+    width: 4rem;
+    position: relative;
+    height: 2rem;
+    background-color: #838383;
+    border: solid 2px #cbcbcb;
+    border-radius: calc(1rem + 2px);
+    transition: background-color .2s ease;
+}
+
+.enabled {
+    background-color: rgb(20, 45, 73)
+}
+
+.enabled .thumb {
+    transform: translateX(2rem);
+}
+
+.thumb {
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(68, 68, 68);
+    border-radius: 1rem;
+    transition: transform .2s ease;
+}
+
+.title {
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.statusBar {
+    height: 3px;
+    width: 100%;
+    background-color: #565656;
+}
+
+.disconnected {
+    background-color: #f55656;
+}
