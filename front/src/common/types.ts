@@ -1,3 +1,4 @@
+import { IconName } from "@UI/Icon/interfaces";
 import { KeyHoldCommandKey } from "@commands/keyHold";
 import { KeyPressCommandKey } from "@commands/keyPress";
 import { ControlProps } from "@components/Control/interfaces";
@@ -11,6 +12,7 @@ export type LayoutControlType = ControlProps;
 export interface LayoutType {
   id: string;
   title: string;
+  icon?: IconName;
   controls: LayoutControlType[];
 }
 

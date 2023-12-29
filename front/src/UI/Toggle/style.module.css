@@ -6,6 +6,7 @@
     border: solid 2px #cbcbcb;
     border-radius: calc(1rem + 2px);
     transition: background-color .2s ease;
+    box-sizing: content-box;
 }
 
 .enabled {

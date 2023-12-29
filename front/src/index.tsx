@@ -1,6 +1,6 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
-
+import 'ress/ress.css';
 import "./index.css";
 import { LoggerProvider } from "@modules/Logger/context";
 import { Router, Route } from "@solidjs/router";

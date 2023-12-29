@@ -5,8 +5,9 @@ export const DEFAULT_STORE: AppStore = {
   port: "8080",
   layouts: [
     {
-      id: 'test',
-      title: "Test layout",
+      id: 'spaceship',
+      title: "Spaceship",
+      icon: 'spaceship',
       controls: [
         {
           action: "keyboard.keypress",
@@ -47,5 +48,17 @@ export const DEFAULT_STORE: AppStore = {
         },
       ],
     },
+    {
+      id: 'mining',
+      title: "Mining",
+      icon: 'spaceship',
+      controls: []
+    },
+    {
+      id: 'onfoot',
+      title: "On foot",
+      icon: 'spaceship',
+      controls: []
+    }
   ],
 };

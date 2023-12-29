@@ -1,3 +1,5 @@
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -9,19 +11,90 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --main-background: #5f5f5f
+  --main-background: #5f5f5f;
+
+  /* main theme colors */
+  
+  /* gray */
+  --gray-100: #0b0e0e;
+  --gray-200: #161c1d;
+  --gray-300: #222a2b;
+  --gray-400: #2d3739;
+  --gray-500: #394648;
+  --gray-600: #5a6f72;
+  --gray-700: #7e969a;
+  --gray-800: #a9b9bc;
+  --gray-900: #d4dcdd;
+
+  /* green */
+  --green-100: #151e13;
+  --green-200: #2a3d25;
+  --green-300: #3f5b38;
+  --green-400: #54794a;
+  --green-500: #69995d;
+  --green-600: #86ae7b;
+  --green-700: #a4c39c;
+  --green-800: #c2d7bd;
+  --green-900: #e1ebde;
+
+  /* beige */
+  --beige-100: #2f2315;
+  --beige-200: #5e4529;
+  --beige-300: #8c683e;
+  --beige-400: #b68a58;
+  --beige-500: #cbac88;
+  --beige-600: #d5bb9f;
+  --beige-700: #dfccb7;
+  --beige-800: #eaddcf;
+  --beige-900: #f4eee7;
+
+  /* red */
+  --red-100: #230907;
+  --red-200: #45120e;
+  --red-300: #681b15;
+  --red-400: #8b241c;
+  --red-500: #ad2e24;
+  --red-600: #d64237;
+  --red-700: #e07169;
+  --red-800: #eba09b;
+  --red-900: #f5d0cd;
+
+  /* dark-red */
+  --dark-red-100: #110201;
+  --dark-red-200: #210302;
+  --dark-red-300: #320502;
+  --dark-red-400: #420603;
+  --dark-red-500: #540804;
+  --dark-red-600: #a41008;
+  --dark-red-700: #f4180c;
+  --dark-red-800: #f7655d;
+  --dark-red-900: #fbb2ae;
+
+  /* theme colors */
+  --neutral: var(--gray-500);
+  --primary: var(--green-500);
+  --secondary: var(--beige-500);
+  --accent: var(--red-500);
+
+  --bg-main: var(--gray-900);
+
+  --black: #111;
+  --white: #fafafa;
+
+  --color-main: var(--black);
+  --color-reversed: var(--white);
 }
 
 a {
   font-weight: 500;
-  color: #a4a8f5;
-  text-decoration: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 a:hover {
-  color: #535bf2;
 }
 
 body {
   margin: 0;
   min-width: 320px;
+  background-color: var(--bg-main);
 }

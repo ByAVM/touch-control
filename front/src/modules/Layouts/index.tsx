@@ -10,7 +10,7 @@ export const Layouts: Component = () => {
     <For each={store.layouts}>
       {(layout) => (
         <A href={`/layout/${layout.id}`}>
-          <LayoutListItem title={layout.title} />
+          <LayoutListItem title={layout.title} icon={layout.icon} />
         </A>
       )}
     </For>

@@ -1,8 +1,33 @@
 .navbar {
+    position: fixed;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+
+    padding: 0 .5rem;
+
+    background-color: var(--gray-500);
+
+    color: var(--color-reversed);
+    transform: translateY(-64px);
+    transition: transform 0.3s ease;
+
+}
+
+.nav {
+    height: 65px;
     display: flex;
     align-items: center;
-    padding: 0 .5rem;
-    height: 2rem;
+}
 
-    background-color: var(--main-background);
+.nav button {
+    color: inherit;
+}
+
+.list {
+    display: flex;
+}
+
+.open {
+    transform: translateY(calc(-100vh))
 }
